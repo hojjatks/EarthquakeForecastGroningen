@@ -1,4 +1,7 @@
-/Data
+*.npy
+*.hdf5
+*.csv
+
 /Figs/*
 !/Figs/.gitkeep
 /Outputs
