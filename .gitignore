@@ -1,3 +1,4 @@
 /Data
-/Figs
+/Figs/*
+!/Figs/.gitkeep
 /Outputs
