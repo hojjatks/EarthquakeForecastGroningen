@@ -2,3 +2,4 @@
 /Figs/*
 !/Figs/.gitkeep
 /Outputs
+!/Outputs/.gitkeep
