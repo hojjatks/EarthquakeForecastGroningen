@@ -1,0 +1,12 @@
+# Things to be done:
+## preparing the code with the new extraction scenario
+    Steps for this job include:
+    * Make sure you are using a correct stress calculation (the one that Jan van Elk) provided. So far, I assume I have a correct file. I asked Mateo to send me the file again and I will double check.
+    * Update the code on finding proper model parameters.
+    * Update the code to forecast the number of events
+    * Update the code to forecast the magnitudes with a random b value.
+    *
+    *
+### milestones reached:
+
+## Add the dependency of the bvalue on stressing rate (new branch)
