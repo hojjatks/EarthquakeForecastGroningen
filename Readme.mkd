@@ -1,6 +1,6 @@
 # Things to be done:
 ## preparing the code with the new extraction scenario
-    Steps for this job include:
+    Steps for this job include:VV
     * Update the code to forecast the magnitudes with a random b value.
 ### milestones reached:
     * Code completed and commented for finding model parameters.
