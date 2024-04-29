@@ -1,7 +1,8 @@
 *.npy
 *.hdf5
 *.csv
-
+*.pyc
+*.png
 /Figs/*
 !/Figs/.gitkeep
 /Outputs
