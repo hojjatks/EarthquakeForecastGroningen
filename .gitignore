@@ -7,3 +7,5 @@
 !/Figs/.gitkeep
 /Outputs
 !/Outputs/.gitkeep
+Data/*
+Output/*
