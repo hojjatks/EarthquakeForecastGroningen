@@ -1,0 +1,21 @@
+name: forecastGroningen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - arviz
+  - astropy
+  - numpy
+  - pandas
+  - jupyter
+  - ipykernel
+  - tqdm
+  - matplotlib
+  - scipy
+  - seaborn
+  - h5py
+  - opencv
+  - pymc>=5
+
+prefix: /home/anaconda/envs/forecastGroningen

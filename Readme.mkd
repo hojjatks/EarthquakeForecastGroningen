@@ -5,5 +5,19 @@
 ### milestones reached:
     * Code completed and commented for finding model parameters.
     * code completed for forecast number of events.
+    * code tested for nontapered and tapered MFD
 
 ## Add the dependency of the bvalue on stressing rate (new branch)
+
+
+## Short code description
+* `forecastGroningen.yml` is a `.yml` file to install the environment for the codes.
+* `FindParameters.py` find the best model parameters and their uncertainties and save the data. One can change the length of the dataset (i.e. range of the training set) in this code.
+* `PlottingTimeseries.py` plot the time series of the number of events predicted.
+* `MFDnonTapered.py` plots the MFD for nontapered distribution considering all of the sources of uncertainty.
+
+
+* `TaperMFD.py` plots the MFD for tapered distribution considering all of the sources of uncertainty. The program takes long to slimulate and consider all of the sources of uncertainty. You can reduce the number of realizations to reduce the computational costs.
+
+
+* `Functions_spatial.py`, `Functions_Steepest.py`, `Functions.py`, and `Taper.py` are some helper functions. 

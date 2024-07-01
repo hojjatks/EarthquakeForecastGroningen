@@ -188,7 +188,7 @@ def FindR(Ds_t,u,time):
     R=np.zeros(Ds_t.shape)
     y=np.exp((Ds_t-Ds_c)/Asigma)
     boolian=Ds_t>Ds_c
-    temp1 = integrate.cumtrapz(y*boolian, time , initial=0, axis = 0)# The multiplication of 1/12 is that we are analysing things monthly
+    temp1 = integrate.cumulative_trapezoid(y*boolian, time , initial=0, axis = 0)# The multiplication of 1/12 is that we are analysing things monthly
     temp2 = temp1/t_a +1
     
     R = r*y/temp2 # To check that should I also multiply the numerator with Hevicide or not
