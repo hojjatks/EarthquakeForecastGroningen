@@ -1,13 +1,4 @@
-# Things to be done:
-## preparing the code with the new extraction scenario
-    Steps for this job include:VV
-    * Update the code to forecast the magnitudes with a random b value.
-### milestones reached:
-    * Code completed and commented for finding model parameters.
-    * code completed for forecast number of events.
-    * code tested for nontapered and tapered MFD
 
-## Add the dependency of the bvalue on stressing rate (new branch)
 
 
 ## Short code description
@@ -20,4 +11,5 @@
 * `TaperMFD.py` plots the MFD for tapered distribution considering all of the sources of uncertainty. The program takes long to slimulate and consider all of the sources of uncertainty. You can reduce the number of realizations to reduce the computational costs.
 
 
-* `Functions_spatial.py`, `Functions_Steepest.py`, `Functions.py`, and `Taper.py` are some helper functions. 
+* `Functions_spatial.py`, `Functions_Steepest.py`, `Functions.py`, and `Taper.py` are some helper functions.
+
